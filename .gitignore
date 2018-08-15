@@ -1,2 +1,6 @@
+### VisualStudioCode ###
+.vscode/*
+
+### Node.s ###
 node_modules/
 npm-debug.log
