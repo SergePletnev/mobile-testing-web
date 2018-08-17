@@ -1,0 +1,19 @@
+{
+  "name": "mobile-testing-web",
+  "version": "1.0.0",
+  "description": "Mobile web testing of onliner.by",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor ./test/config/mobile.conf.js"
+  },
+  "keywords": [
+    "appium",
+    "mobile"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "path": "^0.12.7",
+    "protractor": "^5.4.0"
+  }
+}
