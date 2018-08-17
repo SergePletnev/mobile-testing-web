@@ -1,5 +1,7 @@
 'use strict'
 
+const path = require('path');
+
 exports.config = {
 
     seleniumAddress: 'http://localhost:4723/wd/hub',
@@ -10,7 +12,7 @@ exports.config = {
         deviceName: 'myDevice'
     },
 
-    specs: [require('path').resolve('./test/specs/spec.js')],
+    specs: [path.resolve('./test/specs/**/*.js')],
 
     onPrepare: () => {
         browser.waitForAngularEnabled(false);
