@@ -9,7 +9,9 @@ exports.config = {
     capabilities: {
         browserName: 'chrome',
         platformName: 'Android',
-        deviceName: 'myDevice'
+        deviceName: 'myDevice',
+        chromedriverExecutableDir: path.resolve('./test/chromeDrivers/'),
+        chromedriverChromeMappingFile: path.resolve('./test/config/chromeMapping.json')
     },
 
     specs: [path.resolve('./test/specs/**/*.js')],
