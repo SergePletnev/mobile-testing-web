@@ -1,7 +1,7 @@
 'use strict'
 
 const baseUri = 'https://www.onliner.by/';
-const sectionsNumber = 15;
+const sectionsNumber = 12;
 const sections = element.all(by.css('.project-navigation__item'));
 const searchInput = element(by.css('.fast-search__input'));
 
